@@ -1,0 +1,80 @@
+body, html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+  width: 100%;
+  height: 95%;
+  margin: 0;
+  padding: 0;
+      }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #77B0AA;	
+}
+
+
+li a {
+	float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #86469C;
+}	
+
+h2{
+   color: white;
+   position: absolute;
+   top: 40%;
+   left: 38%;
+} 
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #77B0AA; 
+  color: #135D66; 
+  border: 2px solid #000000; /* Black border */
+  border-radius: 2px; /* Rounded corners */
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+
+  position: absolute;
+   top: 50%;
+   left: 40%;
+
+}
+
+/* Hover Effect */
+.button:hover {
+  background-color: #86469C; /* Black background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+
+.menu {
+  display: table;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-item {
+  display: table-cell;
+  list-style: none;
+  margin: 0;
+}
+
+

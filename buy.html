@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form on Video Background</title>
+    <link rel="stylesheet" href="buy.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<ul>
+     	<li><a href="index.html">Home</a></li>
+        <li><a href="#home">Service</a></li>	
+        <li><a href="#home">Flights</a></li>
+ </ul>
+
+    <div class="video-container">
+        <video autoplay muted loop class="background-video">
+            <source src="air.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="form-container">
+            <form>
+                <h1>Book Flight</h1>
+                <label for="From">From:</label>
+                <input type="text" id="from" name="from" required>
+                <label for="">To:</label>
+                <input type="to" id="to" name="to" required>
+              
+                <button type="Search">Search		</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
